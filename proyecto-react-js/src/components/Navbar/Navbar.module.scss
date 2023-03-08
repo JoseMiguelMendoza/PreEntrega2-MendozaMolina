@@ -1,0 +1,14 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    border: black solid;
+    background: linear-gradient(0.25turn,#000124,#230979,#d100ff);
+
+    &Item {
+        list-style-type: none;
+        color: white;
+    }
+}
