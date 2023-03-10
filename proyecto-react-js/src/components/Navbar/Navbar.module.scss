@@ -1,14 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
 .navbar {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    height: 50px;
-    border: black solid;
+    padding: 0;
+    margin: 0;
     background: linear-gradient(0.25turn,#000124,#230979,#d100ff);
+    max-height: 60px;
 
     &Item {
+        font-family: 'Tilt Neon', cursive;
+        flex-grow: 1;
         list-style-type: none;
-        color: white;
+        color: rgb(255, 255, 255);
+        text-align: center;  
+        border-right: 1px solid white;
+
+        &:nth-child(6) {
+            border-right: none;
+        }
+        &:nth-child(1) {
+            border-right: none;
+        }
+
+        &:hover{
+            background-color: rgb(255, 255, 255);
+        }
     }
+}
+
+.navbarA {
+    display: block;
+    padding: 21px;
+    text-decoration: none;
+    color: white;
+
+    &:hover {
+        color: black;
+    }
+}
+
+.carritoCompras {
+    list-style-type: none;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.cartWidgetA {
+    text-decoration: none;
 }
