@@ -1,0 +1,42 @@
+.contenedorTextoBienvenida {
+    display: flex;
+    text-align: center;
+    margin-top: 10px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+}
+
+.parrafoPosicion {
+    background-image: url("../src/assets/fondo-img-bienvenida.webp");
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    height: 370px;
+    width: 545px;
+    border: 0.5px solid white;
+    border-radius: 50px;
+    opacity: 0.7;
+}
+
+.tituloDeBienvenida {
+    margin-top: 50px;
+    margin-bottom: -10px;
+    color: white;
+    font-family: 'Tilt Neon', cursive;
+    font-size: 17px;
+}
+
+.parrafoDeBienvenida {
+    color: white;
+    font-family: 'Tilt Neon', cursive;
+    padding: 20px;
+    font-size: 15px;
+}
+
+.imagenBienvenida {
+    width: 490px;
+    border-radius: 40px;
+    opacity: 0.8;
+}

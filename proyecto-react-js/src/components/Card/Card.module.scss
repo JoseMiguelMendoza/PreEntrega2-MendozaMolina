@@ -1,0 +1,22 @@
+.contenedorCardProducto {
+    width: 200px;
+    height: 305px;
+    margin: 9px;
+    border: 1px solid white;
+    background-image: url("../src/assets/img-background-card-product.jpg");
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.imagenProducto {
+    border-radius: 20px;
+    margin-top: 10px;
+    width: 150px;
+    height: 150px;
+}
+
+.texto {
+    font-size: 16px;
+    font-family: 'Tilt Neon', cursive;
+    color: white;
+}

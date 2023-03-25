@@ -1,0 +1,36 @@
+.contenedorGeneral {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedorDetailWithButton {
+    border: 1px solid white;
+    border-radius: 40px;
+    padding: 20px;
+    margin-top: 15px;
+    width: 90%;
+}
+
+.contenedorDetailsOnly {
+    display: flex;
+    justify-content: center;
+}
+
+.textoDetail {
+    font-family: 'Tilt Neon', cursive;
+    color: white;
+}
+
+.imageProduct {
+    width: 250px;
+    height: 270px;
+    border-radius: 40px;
+    margin-right: 20px;
+}
+
+.buttonPosition {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
