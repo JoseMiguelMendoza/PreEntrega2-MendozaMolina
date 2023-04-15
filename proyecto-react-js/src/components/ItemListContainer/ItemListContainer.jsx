@@ -7,7 +7,7 @@ import { collection, getDocs } from "firebase/firestore"
 
 const ItemListContainer = () => {
   const [productos, setProductos] = useState([])
-  // const {categoryName} = useParams();
+  const {categoryName} = useParams();
   const productosRef = collection(db, "productos")
 
   const getProductos = async () => {
@@ -26,10 +26,11 @@ const ItemListContainer = () => {
   if(categoryName){
     useEffect(() => {
       setProductos((product) => product.filter(producto => producto.category === categoryName))
+      getProductos()
     }, [categoryName])
   } else {
     useEffect(() => {
-      setProductos()
+      getProductos()
     }, [categoryName])
   }
 
