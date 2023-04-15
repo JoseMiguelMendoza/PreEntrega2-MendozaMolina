@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { Navigate, useParams } from "react-router-dom"
 import Button from "../Button/Button";
 import styles from "./ItemDetailContainer.module.scss"
+import db from "../../../db/firebase-config";
 
 const ItemDetailContainer = () => {
     const [producto, setProducto] = useState([])
@@ -26,7 +27,7 @@ const ItemDetailContainer = () => {
           </div>
           <div>
             <p className={styles.textoDetail}>Nombre: {producto.name}</p>
-            <p className={styles.textoDetail}>Precio: {producto.price}</p>
+            <p className={styles.textoDetail}>Precio: ${producto.price}</p>
             <p className={styles.textoDetail}>Marca: {producto.brand}</p>
             <p className={styles.textoDetail}>Año: {producto.year}</p>
             <p className={styles.textoDetail}>Categoría: {producto.category}</p>

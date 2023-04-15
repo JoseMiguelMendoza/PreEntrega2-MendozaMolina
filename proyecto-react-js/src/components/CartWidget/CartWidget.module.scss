@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
 .icono {
     display: flex;
     justify-content: center;
@@ -9,16 +10,16 @@
 }
 
 .contenedorNotificacion {
-    background: linear-gradient(135deg, #e0ff00, #fd1d1d, #fcb045);
-    width: 18px;
-    height: 19px;
+    margin-left: 1px;
+    background: red;
+    width: 20px;
+    height: 20px;
     border-radius: 50%;
 }
 
 .notificacion {
+    font-family: 'Tilt Neon', cursive;
     text-align: center;
-    margin: 1px;
+    margin: 0;
     color: white;
-
-
 }

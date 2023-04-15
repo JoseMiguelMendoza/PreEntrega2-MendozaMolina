@@ -9,13 +9,13 @@ import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailCont
 function App() {
   return (
     <>
-    <Navbar />
-    <Routes>
-      <Route path='/' element={<Navigate to='/home' />}/>
-      <Route path='/home' element={<Home greeting="¡Bienvenido a ForTrading!" />}/>
-      <Route path='/category/:categoryName' element={<ItemListContainer />} />
-      <Route path='/item/:id' element={<ItemDetailContainer />} />
-    </Routes>
+      <Navbar />
+      <Routes>
+        <Route path='/' element={<Navigate to='/home' />}/>
+        <Route path='/home' element={<Home greeting="¡Bienvenido a ForTrading!" />}/>
+        <Route path='/category/:categoryName' element={<ItemListContainer />} />
+        <Route path='/item/:id' element={<ItemDetailContainer />} />
+      </Routes>
     </>
   )
 }
