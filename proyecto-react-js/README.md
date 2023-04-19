@@ -1,7 +1,5 @@
 # Proyecto de tienda e-commerce "ForTrading"
-<hr> 
 ![](https://github.com/JoseMiguelMendoza/ProyectoFinal-MendozaMolina/blob/master/proyecto-react-js/src/assets/funcionalidad.gif)
-<hr>
 Este proyecto es una página web, hecho para una tienda de productos electronicos. Proyecto realizado para el curso React.js de <a href="https://www.coderhouse.com/">Coderhouse</a>
 
 ## En este proyecto se utilizó:
@@ -12,8 +10,7 @@ Este proyecto es una página web, hecho para una tienda de productos electronico
 
 
 ## Como usar: 
-<hr>
-```bash
+```
 # Clonar este repositorio
 $ git clone https://github.com/JoseMiguelMendoza/PreEntrega2-MendozaMolina.git
 
