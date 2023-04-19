@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+
+.checkoutItemTable{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    border-bottom-right-radius: none !important;
+    border-bottom-left-radius: none !important;
+    border-radius: 20px;
+    margin-left: 20px;
+    width: 890px;
+    overflow: hidden;
+}
+
+.checkoutTable{
+    height: auto;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 890px;
+}
+
+.estiloTexto{
+    font-family: 'Tilt Neon', cursive;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+.backgroundTable{
+    background: linear-gradient(0.25turn,#000124,#230979,#d100ff);
+}
+
+.imageProduct{
+    text-decoration: none;
+    border-radius: 20px;
+    width: 50px;
+    height: 50px;
+}
+
+.iconEraseItem{
+    width: 30px;
+    height: 30px;
+}
+
+.buttonEmptyCart{
+    margin-top: 15px;
+    margin-left: 350px;
+}
+
+.borderTop{
+    display: inline;
+    border-top: 1px solid white;
+    width: 890px;
+}
+
+.borderBottom{
+    border-bottom: 1px solid white;
+}
+
+.marginText{
+    margin-left: 100px;
+    padding: 15px;
+}
+
+.tableWidth{
+    width: 890px;
+    height: 300px;
+}
+
+.filaTabla{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 14px;
+}

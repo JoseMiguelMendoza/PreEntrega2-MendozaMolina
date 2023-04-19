@@ -1,0 +1,24 @@
+.counterBox {
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.shortButtons {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 17px;
+    border-radius: 1rem;
+    border: none;
+    position: relative;
+    background: #100720;
+    transition: 0.1s;
+}
+
+.textoDetail {
+    font-family: 'Tilt Neon', cursive;
+    color: white;
+}

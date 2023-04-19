@@ -24,11 +24,6 @@ const Navbar = () => {
           <div className={styles.navbarA}>Portatiles</div>
         </div>
       </NavLink>
-      <NavLink to='/contact-us' className={styles.navlink}>
-        <div className={styles.navbarItem}>
-          <div className={styles.navbarA}>Contact Us</div>
-        </div>
-      </NavLink>
       <NavLink to='/cart' className={styles.navlink}>
         <div className={styles.carritoCompras}> 
           <div className={styles.cartWidgetA}><CartWidget /></div>
