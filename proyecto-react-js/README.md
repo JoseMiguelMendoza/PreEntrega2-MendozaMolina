@@ -1,6 +1,6 @@
 # Proyecto de tienda e-commerce "ForTrading"
 <hr> 
-
+![](https://github.com/JoseMiguelMendoza/ProyectoFinal-MendozaMolina/blob/master/proyecto-react-js/src/assets/funcionalidad.gif)
 <hr>
 Este proyecto es una página web, hecho para una tienda de productos electronicos. Proyecto realizado para el curso React.js de <a href="https://www.coderhouse.com/">Coderhouse</a>
 
